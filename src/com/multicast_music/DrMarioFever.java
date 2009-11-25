@@ -47,6 +47,10 @@ public class DrMarioFever {
 	
 	private static final int NONE = -1;
 	
+	private static final int BPM = 300;
+	private static final int MS_PER_BEAT = 60000 / BPM;
+	private static final int MS_PER_16TH = MS_PER_BEAT / 4;
+	
 	// All normalized to 16th notes, NONE for rests
 	// One measure per line
 	
