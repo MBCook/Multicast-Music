@@ -7,15 +7,17 @@ public class TestMusic {
 		for (int i = 0; i < DrMarioFever.topPart.length; i++) {
 			System.out.println(i);
 			
-			int note = DrMarioFever.topPart[i];
-			int length = DrMarioFever.topLength[i];
+			int note = DrMarioFever.middlePart[i];
+			int length = DrMarioFever.middleLength[i];
 			
 			if (length > 1) {
 				i = i + length - 1;
 			}
 			
 			if (note != -1) {
-				internalSpeaker.play(note, length * DrMarioFever.MS_PER_16TH - 5);
+				if (length == -1)
+					throw new Exception(note + "," + i);
+				//internalSpeaker.play(note, length * DrMarioFever.MS_PER_16TH - 5);
 			} else {
 				try {
 					Thread.sleep(DrMarioFever.MS_PER_16TH - 5);

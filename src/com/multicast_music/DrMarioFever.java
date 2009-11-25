@@ -158,13 +158,13 @@ public class DrMarioFever {
 			G4, G4, G4, G4, A4s, A4s, B4, B4, E4, E4, E4, E4, NONE, NONE, NONE, NONE,
 			G4, G4, G4, G4, A4s, A4s, B4, B4, E4, E4, E4, E4, E4, E4, E4, E4,				// 9
 			NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE,
-			C3, C3, C3, C3, D3s, D3s, E3, E3, F2, F2, F2, NONE, G2s, G2s, A2, A2,
-			C3, C3, C3, C3, D3s, D3s, E3, E3, F2, F2, G2s, NONE, A2, A2, C3s, C3s,
-			C3, C3, C3, C3, D3s, D3s, E3, E3, F2, F2, F2, NONE, G2s, G2s, A2, A2,			// 13
+			G4, G4, G4, NONE, G4, G4, G4, G4, F4, F4, A4s, A4s, A4, A4, F4, F4,
+			G4, G4, G4, NONE, G4, G4, G4, G4, A4, A4, A4, A4, NONE, NONE, NONE, NONE,
+			G4, G4, G4, NONE, G4, G4, G4, G4, F4, F4, A4s, A4s, A4, A4, F4, F4,				// 13
 			A3, A3, A4, A4, B4, B4, F4s, F4s, G4, G4, G4, G4, F4, F4, F4, F4,
 			G3, G3, C4, C4, B3, B3, A3s, A3s, A3, A3, NONE, NONE, F3, F3, F3, F3,
 			G3, G3, C4, C4, B3, B3, A3s, A3s, A3, A3, NONE, NONE, F2s, F2s, F2s, F2s,
-			G3, G3, G3, G3, G3, G3, G3, G3, F3, F3, F3, F3, F3, F3, F3, F3,					// 17
+			G3, G3, G3, NONE, G3, G3, G3, G3, F3, F3, F3, F3, F3, F3, F3, F3,				// 17
 			G3, G3, G3, NONE, G3, G3, G3, NONE, E3, E3, E3, E3, C3, C3, C3, C3,
 			E3, E3, E3, E3, E3, E3, E3, E3, B3, B3, B3, B3, G3, G3, G3, G3,
 			C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3, C3,
@@ -176,7 +176,7 @@ public class DrMarioFever {
 			D3, D3, D3, D3, D3, D3, D3, D3, G2, G2, G2, G2, G2, G2, G2, G2,
 			G3, G3, C4, C4, B3, B3, A3s, A3s, A3, A3, NONE, NONE, F3, F3, F3, F3,
 			G3, G3, C4, C4, B3, B3, A3s, A3s, A3, A3, NONE, NONE, F2s, F2s, F2s, F2s,
-			G3, G3, G3, G3, G3, G3, G3, G3, F3, F3, F3, F3, F3, F3, F3, F3,					// 29
+			G3, G3, G3, NONE, G3, G3, G3, G3, F3, F3, F3, F3, F3, F3, F3, F3,				// 29
 			G3, G3, G3, NONE, G3, G3, G3, NONE, E3, E3, E3, E3, C3, C3, C3, C3,
 			C2, C2, C2, C2, D2s, D2s, E2, E2, F2, F2, F2, F2, F2s, F2s, G2, G2,
 			C2, C2, C2, C2, D2s, D2s, E2, E2, F2, F2, F2, F2, F2s, F2s, G2, G2,
@@ -248,9 +248,9 @@ public class DrMarioFever {
 			D4, D4, E4, E4, D4, D4, D4, D4, C4, C4, C4, C4, NONE, NONE, NONE, NONE,
 			D4, D4, E4, E4, D4, D4, E4, E4, C4, C4, C4, C4, D4s, D4s, NONE, NONE,			// 9
 			NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE,
-			NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE,
-			NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE,
-			NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE,
+			C3, C3, C3, NONE, D3s, D3s, E3, E3, F2, F2, F2, NONE, G2s, G2s, A2, A2,
+			C3, C3, C3, NONE, D3s, D3s, E3, E3, F2, F2, G2s, NONE, A2, A2, C3s, C3s,
+			C3, C3, C3, NONE, D3s, D3s, E3, E3, F2, F2, F2, NONE, G2s, G2s, A2, A2,			// 13
 			D3, D3, D3, D3, F3s, F3s, A3, A3, G3, G3, G3, NONE, G3, G3, G3, G3,
 			C2, C2, C2, NONE, D2s, D2s, E2, E2, F2, F2, NONE, NONE, E1, E1, E1, E1,
 			C2, C2, C2, NONE, D2s, D2s, E2, E2, F2, F2, NONE, NONE, NONE, NONE, NONE, NONE,
