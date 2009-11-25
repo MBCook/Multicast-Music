@@ -7,8 +7,8 @@ public class TestMusic {
 		for (int i = 0; i < DrMarioFever.topPart.length; i++) {
 			System.out.println(i);
 			
-			int note = DrMarioFever.middlePart[i];
-			int length = DrMarioFever.middleLength[i];
+			int note = DrMarioFever.lowPart[i];
+			int length = DrMarioFever.lowLength[i];
 			
 			if (length > 1) {
 				i = i + length - 1;
