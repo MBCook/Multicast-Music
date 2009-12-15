@@ -1,5 +1,7 @@
 package com.multicast_music;
 
+import com.multicast_music.songs.DrMarioFever;
+
 public class TestMusic {
 	public static void main(String[] args) throws Exception {
 		InternalSpeaker internalSpeaker = new InternalSpeaker();

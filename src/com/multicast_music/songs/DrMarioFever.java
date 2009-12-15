@@ -1,51 +1,6 @@
-package com.multicast_music;
+package com.multicast_music.songs;
 
-public class DrMarioFever {
-	private static final int B0 = 31;
-	private static final int E1 = 41;
-	private static final int C2 = 65;
-	private static final int D2 = 74;
-	private static final int D2s = 78;
-	private static final int E2 = 83;
-	private static final int F2 = 87;
-	private static final int F2s = 93;
-	private static final int G2 = 98;
-	private static final int G2s = 104;
-	private static final int A2 = 110;
-	private static final int A2s = 117;
-	private static final int B2 = 123;
-	private static final int C3 = 131;
-	private static final int C3s = 139;
-	private static final int D3 = 147;
-	private static final int D3s = 156;
-	private static final int E3 = 165;
-	private static final int F3 = 175;
-	private static final int F3s = 185;
-	private static final int G3 = 196;
-	private static final int A3 = 220;
-	private static final int A3s = 233;
-	private static final int B3 = 247;
-	private static final int C4 = 262;		// Middle C
-	private static final int D4 = 294;
-	private static final int D4s = 311;
-	private static final int E4 = 330;
-	private static final int F4 = 350;
-	private static final int F4s = 370;
-	private static final int G4 = 392;
-	private static final int A4 = 440;
-	private static final int A4s = 466;
-	private static final int B4 = 494;
-	private static final int C5 = 523;
-	private static final int D5 = 587;
-	private static final int D5s = 622;
-	private static final int E5 = 660;
-	private static final int F5 = 699;
-	private static final int G5 = 784;
-	private static final int A5 = 880;
-	private static final int A5s = 932;
-	private static final int B5 = 988;
-	
-	private static final int NONE = -1;
+public class DrMarioFever extends Notes {
 	
 	private static final int BPM = 300;
 	private static final int MS_PER_BEAT = 60000 / BPM;

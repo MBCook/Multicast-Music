@@ -4,6 +4,8 @@ import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.util.Random;
 
+import com.multicast_music.songs.DrMarioFever;
+
 public class MulticastMusicClient {
 	public static void main(String[] args) throws Exception {
 		InternalSpeaker internalSpeaker = new InternalSpeaker();
